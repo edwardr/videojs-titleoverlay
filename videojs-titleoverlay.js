@@ -70,8 +70,8 @@
          * Assign title for player
          * @param {string} - Player clip title 
          */
-        this.updateText = function(titleText) {
-            updateText_(titleText);
+        this.updateTitle = function(titleText) {
+            updateTitle_(titleText);
         };
 
         /**
@@ -114,7 +114,7 @@
             showOverlay_();
         }.bind(this);
 
-        var updateText_ = function(titleText) {
+        var updateTitle_ = function(titleText) {
             this.logger.log('Updating title from ' + this.titleOverlayTextContainer.textContent + ' to ' + titleText);
             this.titleOverlayTextContainer.textContent = titleText;
         }.bind(this);

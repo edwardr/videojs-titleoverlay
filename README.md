@@ -30,4 +30,20 @@ You can specify the following options:
     }
 ```
 
+You can hide/show the title overlay by calling the following:
+
+```javascript
+    player.titleoverlay.showOverlay();
+
+    //or
+
+    player.titleoverlay.hideOverlay();
+```
+
+You can update the title text if you are loading clips in dynamically with the following:
+
+```javascript
+    player.titleoverlay.updateTitle('TITLE TO UPDATE TO');
+```
+
 If you have any questions, please shoot me an email @ melendez.stevenk@gmail.com or smelendez@franklyinc.com
